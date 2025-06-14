@@ -7,7 +7,6 @@ import DataGridCustomToolbar from "@/components/DataGridCustomToolbar";
 
 function Transactions() {
   const theme = useTheme();
-
   const [paginationModel, setPaginationModel] = useState({
     page: 0,
     pageSize: 20,
