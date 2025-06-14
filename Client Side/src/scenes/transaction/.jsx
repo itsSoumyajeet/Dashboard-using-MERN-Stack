@@ -19,6 +19,7 @@ function Transactions() {
   const { data, isLoading } = useGetTransactionsQuery({
     page: paginationModel.page,
     pageSize: paginationModel.pageSize,
+  
     sort: JSON.stringify(sort),
     search,
   });
